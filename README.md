@@ -15,5 +15,5 @@
  - HG002_GRCh38_1_22_v4.2.1_benchmark.vcf.gz (dc750b3807d4af1f7ffec852e9c2f771)
  - HG002_GRCh38_1_22_v4.2.1_benchmark_noinconsistent.bed.gz (79e87791bb5184477b1fd1d48898479a)
 
-## happ.py 
+## hap.py 
 - v0.3.8-17-gf15de4a
