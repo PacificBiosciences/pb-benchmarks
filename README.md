@@ -37,6 +37,12 @@
  - small variants: hg002.wf_snp.vcf.gz (fa2111cdeb4959e1ed1cfe402d128c39)
  - structural variants: hg002.wf_sv.vcf.gz (cd185fb011345e702f7eb2ba7a19213b)
 
+### structural variant results
+| TP_base | TP_comp | FP   | FN   | recall | precision | f1    |
+|---------|---------|------|------|--------|-----------|-------|
+| 12806   | 10586   | 114  | 1755 | 0.8795 | 0.9893    | 0.9312 |
+
+
 ### small variant results
 | Type | Filter | TRUTH.TOTAL | TRUTH.TP | TRUTH.FN | QUERY.TOTAL | QUERY.FP | QUERY.UNK | FP.gt | METRIC.Recall | METRIC.Precision | METRIC.Frac_NA | METRIC.F1_Score |
 |------|--------|-------------|----------|----------|-------------|----------|-----------|-------|---------------|------------------|----------------|-----------------|
