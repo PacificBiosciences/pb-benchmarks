@@ -6,7 +6,7 @@
 - structural
 
 ### structural variant titrations
-| depth | recall | prec  | f1    |
+| depth | recall | precision  | F1-score    |
 |-------|--------|-------|-------|
 | 10    | 0.8804 | 0.99  | 0.932 |
 | 12    | 0.9072 | 0.9895 | 0.9466 |
