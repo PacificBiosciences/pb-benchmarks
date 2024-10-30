@@ -1,5 +1,9 @@
 # pb-benchmarks
 
+## PacBio HiFi DeepVariant 
+- TODO
+- small variants:
+- structural
 
 ## Illumina Dragen 
  - https://zenodo.org/records/8350256
