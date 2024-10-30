@@ -4,6 +4,7 @@
 ## Illumina Dragen 
  - https://zenodo.org/records/8350256
  - small variants: HG002_35x.hard-filtered.vcf.gz (388f58faa52a8811fe19b06533d2c3d5)
+ - structural variants: HG002_35x.sv.vcf.gz (760b9c5c295fc82b045f83ed15e524a9)
 
 ## ONT
  - https://labs.epi2me.io/giab-2023.05/
