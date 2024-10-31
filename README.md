@@ -4,6 +4,8 @@ The provenance of benchmark datasets and the resulting statistics are tracked in
 
 Application note: https://www.pacb.com/wp-content/uploads/Application-brief-Comprehensive-human-genomic-variant-detection-with-HiFi-long-read-sequencing.pdf 
 
+Small variant benchmarks were done against GIAB 4.2.1 HG002, and the structural variant benchmarks were carried out against GIAB T2T V1.1. 
+
 ## PacBio HiFi 
 - The variant calls provided are assoicated with the SPRQ chemistry
 - small variants: https://downloads.pacbcloud.com/public/revio/2024Q4/WGS/benchmark/
