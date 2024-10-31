@@ -21,7 +21,7 @@ Application note: https://www.pacb.com/wp-content/uploads/Application-brief-Comp
 | INDEL | PASS  | 525469      | 520114   | 5355     | 971125      | 4625     | 426619    | 2506  | 0.989809      | 0.991506         | 0.439304       | 0.990657        |
 | SNP   | PASS  | 3365127     | 3362495  | 2632     | 4177463     | 1152     | 808868    | 492   | 0.999218      | 0.999658         | 0.193627       | 0.999438        |
 
-### structural variant titrations (Sawfish)
+### structural variant titration results (Sawfish)
 | depth | recall | precision  | F1-score    |
 |-------|--------|-------|-------|
 | 9.72    | 0.8804 | 0.99  | 0.932 |
@@ -49,14 +49,14 @@ Application note: https://www.pacb.com/wp-content/uploads/Application-brief-Comp
 | INDEL | PASS | 525469 | 524141 | 1328 | 980875 | 721 | 433435 | 474 | 0.997473 | 0.998683 | 0.441886 | 0.998077 |
 | SNP | PASS | 3365127 | 3357852 | 7275 | 3849974 | 1860 | 489362 | 985 | 0.997838 | 0.999447 | 0.127108 | 0.998642 |
 
-### small variant results (full coverage 30-fold Dragen 3.7.5)
+### small variant results (full coverage 30-fold, Dragen 3.7.5)
 | Type | Filter | TRUTH.TOTAL | TRUTH.TP | TRUTH.FN | QUERY.TOTAL | QUERY.FP | QUERY.UNK | FP.gt | METRIC.Recall | METRIC.Precision | METRIC.Frac_NA | METRIC.F1_Score |
 |------|--------|-------------|----------|----------|-------------|----------|-----------|-------|---------------|------------------|----------------|-----------------|
 | INDEL | PASS  | 525469      | 521874   | 3595     | 995996      | 3500     | 448346    | 1869  | 0.993158      | 0.993609         | 0.450148       | 0.993384        |
 | SNP   | PASS  | 3365127     | 3353531  | 11596    | 4042134     | 14752    | 672953    | 3869  | 0.996554      | 0.995621         | 0.166485       | 0.996088        |
 
 
-### structural variation Dragen 4.2.1
+### structural variation results (full coverage 35-fold, Dragen 4.2.1)
 | TP_base | TP_comp | FP  | FN    | recall | precision | f1    |
 |---------|---------|-----|-------|--------|-----------|-------|
 | 8645    | 7857    | 235 | 13605 | 0.3885 | 0.971     | 0.555 |
@@ -66,13 +66,13 @@ Application note: https://www.pacb.com/wp-content/uploads/Application-brief-Comp
  - small variants: hg002.wf_snp.vcf.gz (fa2111cdeb4959e1ed1cfe402d128c39)
  - structural variants: hg002.wf_sv.vcf.gz (cd185fb011345e702f7eb2ba7a19213b)
 
-### structural variant results
+### structural variant results (full 60-fold coverage)
 | TP_base | TP_comp | FP   | FN   | recall | precision | f1    |
 |---------|---------|------|------|--------|-----------|-------|
 | 12806   | 10586   | 114  | 1755 | 0.8795 | 0.9893    | 0.9312 |
 
 
-### small variant results
+### small variant results (full 60-fold coverage)
 | Type | Filter | TRUTH.TOTAL | TRUTH.TP | TRUTH.FN | QUERY.TOTAL | QUERY.FP | QUERY.UNK | FP.gt | METRIC.Recall | METRIC.Precision | METRIC.Frac_NA | METRIC.F1_Score |
 |------|--------|-------------|----------|----------|-------------|----------|-----------|-------|---------------|------------------|----------------|-----------------|
 | INDEL | PASS | 525469 | 453173 | 72296 | 776968 | 24911 | 283861 | 8400 | 0.862416 | 0.949482 | 0.365345 | 0.903857 |
