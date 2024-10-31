@@ -1,9 +1,9 @@
 # pb-benchmarks
 
 ## PacBio HiFi 
-- TODO
-- small variants:
-- structural
+- The variant calls provided are assoicated with the SPRQ chemistry
+- small variants: https://downloads.pacbcloud.com/public/revio/2024Q4/WGS/benchmark/
+- structural: https://downloads.pacbcloud.com/public/revio/2024Q4/WGS/benchmark/
 
 ### structural variant titrations
 | depth | recall | precision  | F1-score    |
