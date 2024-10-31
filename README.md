@@ -33,18 +33,26 @@
 
 
 ## Illumina 
- - https://zenodo.org/records/8350256
- - small variants: HG002_35x.hard-filtered.vcf.gz (388f58faa52a8811fe19b06533d2c3d5)
+ - https://zenodo.org/records/8350256 (4.2.1), https://www.illumina.com/science/genomics-research/articles/CMRG_hg38.html (3.7.5)
+ - small variants 4.2.1: HG002_35x.hard-filtered.vcf.gz (388f58faa52a8811fe19b06533d2c3d5)
+ - small variants 3.7.5: HG002.30x_novaseq_pcrfree.dragen.vcf.gz (cf2c302a99b96e1e4806cb644524357c) 
  - structural variants: HG002_35x.sv.vcf.gz (760b9c5c295fc82b045f83ed15e524a9)
 
 
-### small variant results (full coverage 35-fold)
+### small variant results (full coverage 35-fold Dragen 4.2.1)
 | Type | Filter | TRUTH.TOTAL | TRUTH.TP | TRUTH.FN | QUERY.TOTAL | QUERY.FP | QUERY.UNK | FP.gt | METRIC.Recall | METRIC.Precision | METRIC.Frac_NA | METRIC.F1_Score |
 |------|--------|-------------|----------|----------|-------------|----------|-----------|-------|---------------|------------------|----------------|-----------------|
 | INDEL | PASS | 525469 | 524141 | 1328 | 980875 | 721 | 433435 | 474 | 0.997473 | 0.998683 | 0.441886 | 0.998077 |
 | SNP | PASS | 3365127 | 3357852 | 7275 | 3849974 | 1860 | 489362 | 985 | 0.997838 | 0.999447 | 0.127108 | 0.998642 |
 
-### structural variation
+### small variant results (full coverage 30-fold Dragen 3.7.5)
+| Type | Filter | TRUTH.TOTAL | TRUTH.TP | TRUTH.FN | QUERY.TOTAL | QUERY.FP | QUERY.UNK | FP.gt | METRIC.Recall | METRIC.Precision | METRIC.Frac_NA | METRIC.F1_Score |
+|------|--------|-------------|----------|----------|-------------|----------|-----------|-------|---------------|------------------|----------------|-----------------|
+| INDEL | PASS  | 525469      | 521874   | 3595     | 995996      | 3500     | 448346    | 1869  | 0.993158      | 0.993609         | 0.450148       | 0.993384        |
+| SNP   | PASS  | 3365127     | 3353531  | 11596    | 4042134     | 14752    | 672953    | 3869  | 0.996554      | 0.995621         | 0.166485       | 0.996088        |
+
+
+### structural variation Dragen 4.2.1
 | TP_base | TP_comp | FP  | FN    | recall | precision | f1    |
 |---------|---------|-----|-------|--------|-----------|-------|
 | 8645    | 7857    | 235 | 13605 | 0.3885 | 0.971     | 0.555 |
