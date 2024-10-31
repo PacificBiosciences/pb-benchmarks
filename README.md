@@ -86,3 +86,4 @@ Application note: https://www.pacb.com/wp-content/uploads/Application-brief-Comp
 
 ## hap.py 
 - v0.3.8-17-gf15de4a
+- script to run the small variant benchmarks is provided in the repo: happy_runner.sbatch
