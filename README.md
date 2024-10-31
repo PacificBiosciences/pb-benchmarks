@@ -9,19 +9,19 @@ Application note: https://www.pacb.com/wp-content/uploads/Application-brief-Comp
 - small variants: https://downloads.pacbcloud.com/public/revio/2024Q4/WGS/benchmark/
 - structural variants: https://downloads.pacbcloud.com/public/revio/2024Q4/WGS/benchmark/
 
-### small variant results (full coverage 20-fold)
+### small variant results (DeepVariant 1.6 full coverage 20-fold)
 | Type | Filter | TRUTH.TOTAL | TRUTH.TP | TRUTH.FN | QUERY.TOTAL | QUERY.FP | QUERY.UNK | FP.gt | METRIC.Recall | METRIC.Precision | METRIC.Frac_NA | METRIC.F1_Score |
 |------|--------|-------------|----------|----------|-------------|----------|-----------|-------|---------------|------------------|----------------|-----------------|
 | INDEL | PASS  | 525469      | 513484   | 11985    | 956105      | 9346     | 414296    | 5286  | 0.977192      | 0.98275          | 0.433316       | 0.979963        |
 | SNP   | PASS  | 3365127     | 3356805  | 8322     | 4143790     | 2255     | 779837    | 1225  | 0.997527      | 0.99933          | 0.188194       | 0.998428        |
 
-### small variant results (full coverage 30-fold)
+### small variant results (DeepVariant 1.6 full coverage 30-fold)
 | Type | Filter | TRUTH.TOTAL | TRUTH.TP | TRUTH.FN | QUERY.TOTAL | QUERY.FP | QUERY.UNK | FP.gt | METRIC.Recall | METRIC.Precision | METRIC.Frac_NA | METRIC.F1_Score |
 |------|--------|-------------|----------|----------|-------------|----------|-----------|-------|---------------|------------------|----------------|-----------------|
 | INDEL | PASS  | 525469      | 520114   | 5355     | 971125      | 4625     | 426619    | 2506  | 0.989809      | 0.991506         | 0.439304       | 0.990657        |
 | SNP   | PASS  | 3365127     | 3362495  | 2632     | 4177463     | 1152     | 808868    | 492   | 0.999218      | 0.999658         | 0.193627       | 0.999438        |
 
-### structural variant titrations
+### structural variant titrations (Sawfish)
 | depth | recall | precision  | F1-score    |
 |-------|--------|-------|-------|
 | 9.72    | 0.8804 | 0.99  | 0.932 |
