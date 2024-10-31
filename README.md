@@ -3,7 +3,7 @@
 ## PacBio HiFi 
 - The variant calls provided are assoicated with the SPRQ chemistry
 - small variants: https://downloads.pacbcloud.com/public/revio/2024Q4/WGS/benchmark/
-- structural: https://downloads.pacbcloud.com/public/revio/2024Q4/WGS/benchmark/
+- structural variants: https://downloads.pacbcloud.com/public/revio/2024Q4/WGS/benchmark/
 
 ### small variant results (full coverage 20-fold)
 | Type | Filter | TRUTH.TOTAL | TRUTH.TP | TRUTH.FN | QUERY.TOTAL | QUERY.FP | QUERY.UNK | FP.gt | METRIC.Recall | METRIC.Precision | METRIC.Frac_NA | METRIC.F1_Score |
