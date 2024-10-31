@@ -86,6 +86,9 @@ Small variant benchmarks were done against GIAB 4.2.1 HG002, and the structural 
  - HG002_GRCh38_1_22_v4.2.1_benchmark.vcf.gz (dc750b3807d4af1f7ffec852e9c2f771)
  - HG002_GRCh38_1_22_v4.2.1_benchmark_noinconsistent.bed.gz (79e87791bb5184477b1fd1d48898479a)
 
+## GIAB T2T (T2T_V0.015-20240215_T2T-HG002-Q100v1.0)
+ - https://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/giab/data/AshkenazimTrio/analysis/NIST_HG002_DraftBenchmark_defrabbV0.015-20240215/
+
 ## hap.py 
 - v0.3.8-17-gf15de4a
 - script to run the small variant benchmarks is provided in the repo: happy_runner.sbatch
