@@ -5,6 +5,13 @@
 - small variants: https://downloads.pacbcloud.com/public/revio/2024Q4/WGS/benchmark/
 - structural: https://downloads.pacbcloud.com/public/revio/2024Q4/WGS/benchmark/
 
+### small variant results (full coverage 20-fold)
+| Type | Filter | TRUTH.TOTAL | TRUTH.TP | TRUTH.FN | QUERY.TOTAL | QUERY.FP | QUERY.UNK | FP.gt | METRIC.Recall | METRIC.Precision | METRIC.Frac_NA | METRIC.F1_Score |
+|------|--------|-------------|----------|----------|-------------|----------|-----------|-------|---------------|------------------|----------------|-----------------|
+| INDEL | PASS  | 525469      | 513484   | 11985    | 956105      | 9346     | 414296    | 5286  | 0.977192      | 0.98275          | 0.433316       | 0.979963        |
+| SNP   | PASS  | 3365127     | 3356805  | 8322     | 4143790     | 2255     | 779837    | 1225  | 0.997527      | 0.99933          | 0.188194       | 0.998428        |
+
+
 ### structural variant titrations
 | depth | recall | precision  | F1-score    |
 |-------|--------|-------|-------|
