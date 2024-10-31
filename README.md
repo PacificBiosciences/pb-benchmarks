@@ -81,14 +81,14 @@ Small variant benchmarks were done against GIAB 4.2.1 HG002, and the structural 
 | SNP | PASS | 3365127 | 3357580 | 7547 | 4418637 | 4925 | 1054410 | 1166 | 0.997757 | 0.998536 | 0.238628 | 0.998147 |
 
 
-## GIAB 4.2.1 truthset
+## GIAB 4.2.1 truthset (small variants)
  - ftp://ftp.ncbi.nlm.nih.gov//giab/ftp/release/AshkenazimTrio/HG002_NA24385_son/NISTv4.2.1/GRCh38
  - HG002_GRCh38_1_22_v4.2.1_benchmark.vcf.gz (dc750b3807d4af1f7ffec852e9c2f771)
  - HG002_GRCh38_1_22_v4.2.1_benchmark_noinconsistent.bed.gz (79e87791bb5184477b1fd1d48898479a)
 
-## GIAB T2T (T2T_V0.015-20240215_T2T-HG002-Q100v1.0)
+## GIAB T2T (T2T_V0.015-20240215_T2T-HG002-Q100v1.0) (structural variants)
  - https://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/giab/data/AshkenazimTrio/analysis/NIST_HG002_DraftBenchmark_defrabbV0.015-20240215/
 
-## hap.py 
+## hap.py (small variants)
 - v0.3.8-17-gf15de4a
 - script to run the small variant benchmarks is provided in the repo: happy_runner.sbatch
