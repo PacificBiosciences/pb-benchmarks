@@ -36,7 +36,7 @@
  - https://zenodo.org/records/8350256 (4.2.1), https://www.illumina.com/science/genomics-research/articles/CMRG_hg38.html (3.7.5)
  - small variants 4.2.1: HG002_35x.hard-filtered.vcf.gz (388f58faa52a8811fe19b06533d2c3d5)
  - small variants 3.7.5: HG002.30x_novaseq_pcrfree.dragen.vcf.gz (cf2c302a99b96e1e4806cb644524357c) 
- - structural variants: HG002_35x.sv.vcf.gz (760b9c5c295fc82b045f83ed15e524a9)
+ - structural variants 4.2.1: HG002_35x.sv.vcf.gz (760b9c5c295fc82b045f83ed15e524a9)
 
 
 ### small variant results (full coverage 35-fold Dragen 4.2.1)
