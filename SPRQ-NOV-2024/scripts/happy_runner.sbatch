@@ -8,7 +8,7 @@
 
 singularity exec \
   --bind $PWD,{XXX}/workflow_resources:/data \
-  /pbi/flash/wrowell/workflow_resources/hap.py_latest.sif \
+  {XXX}/hap.py_latest.sif \
   /opt/hap.py/bin/hap.py --threads 24 -o ${2:-all} --pass-only \
   --gender male \
   -r /data/reference/human_GRCh38_no_alt_analysis_set.fasta \
