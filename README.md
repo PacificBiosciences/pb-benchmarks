@@ -88,7 +88,7 @@ Small variant benchmarks were done against GIAB 4.2.1 HG002, and the structural 
 
 ## GIAB T2T (T2T_V0.015-20240215_T2T-HG002-Q100v1.0) (structural variants)
  - see SV.md
- - for benchmarking steps using true vari please see: https://www.biorxiv.org/content/10.1101/2024.08.19.608674v1
+ - for benchmarking steps using truevari please see: https://www.biorxiv.org/content/10.1101/2024.08.19.608674v1
 
 ## hap.py (small variants)
 - version: v0.3.8-17-gf15de4a
