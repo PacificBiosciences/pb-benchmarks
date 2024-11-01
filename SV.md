@@ -1,5 +1,4 @@
 # Get Q100 truthset
-cat /pbi/dept/appslab/projects/2023/cs_complex_sv/truth_sets/GIABSVTruthSets/T2T_V0.015-20240215_T2T-HG002-Q100v1.0/notes
 wget https://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/giab/data/AshkenazimTrio/analysis/NIST_HG002_DraftBenchmark_defrabbV0.015-20240215/GRCh38_HG2-T2TQ100-V1.0.vcf.gz
 
 grep -v chr[XY] GRCh38_HG2-T2TQ100-V1.0_stvar.benchmark.bed > GRCh38_HG2-T2TQ100-V1.0_stvar.benchmark.only_autosomes.bed
