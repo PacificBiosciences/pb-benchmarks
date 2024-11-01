@@ -87,7 +87,7 @@ Small variant benchmarks were done against GIAB 4.2.1 HG002, and the structural 
  - HG002_GRCh38_1_22_v4.2.1_benchmark_noinconsistent.bed.gz (79e87791bb5184477b1fd1d48898479a)
 
 ## GIAB T2T (T2T_V0.015-20240215_T2T-HG002-Q100v1.0) (structural variants)
- - see scripts/sv_prep.sh
+ - see SV.md
  - for benchmarking steps using true vari please see: https://www.biorxiv.org/content/10.1101/2024.08.19.608674v1
 
 ## hap.py (small variants)
