@@ -1,6 +1,6 @@
 # pb-benchmarks
 
-The provenance of benchmark datasets and the resulting statistics are tracked in this readme. This readme provides the information required to reproduce the results. If questions/concerns arise, please open a ticket. 
+The provenance of benchmark datasets and the resulting statistics are tracked in this readme. This readme provides the information required to reproduce the results. If questions/concerns arise, please open an issue. 
 
 Application note: https://www.pacb.com/wp-content/uploads/Application-brief-Comprehensive-human-genomic-variant-detection-with-HiFi-long-read-sequencing.pdf 
 
