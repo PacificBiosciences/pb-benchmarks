@@ -7,7 +7,7 @@ Application note: https://www.pacb.com/wp-content/uploads/Application-brief-Comp
 Small variant benchmarks were done against GIAB 4.2.1 HG002, and the structural variant benchmarks were carried out against GIAB T2T V1.0 HG002. 
 
 ## PacBio HiFi 
-- Revio SPRQ chemistry GIAB trio datasets are available for download (https://downloads.pacbcloud.com/public/revio/2024Q4/WGS/GIAB_trio/)
+- Revio SPRQ chemistry aligned bam files (https://downloads.pacbcloud.com/public/revio/2024Q4/WGS/benchmark/aligned_bam/)
 - To tiratrate coverage down from 40x, a different HG002 SPRQ chemistry run was selected that yielded 146 Gb. The VCFs at 20-fold and 30-fold are provided in the links below. 
 - small variants: https://downloads.pacbcloud.com/public/revio/2024Q4/WGS/benchmark/
 - structural variants: https://downloads.pacbcloud.com/public/revio/2024Q4/WGS/benchmark/
