@@ -91,5 +91,5 @@ Small variant benchmarks were done against GIAB 4.2.1 HG002, and the structural 
  - for benchmarking steps using true vari please see: https://www.biorxiv.org/content/10.1101/2024.08.19.608674v1
 
 ## hap.py (small variants)
-- v0.3.8-17-gf15de4a
+- version: v0.3.8-17-gf15de4a
 - script to run the small variant benchmarks is provided in the repo: happy_runner.sbatch
