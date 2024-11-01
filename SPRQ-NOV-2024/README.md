@@ -1,4 +1,4 @@
-# pb-benchmarks
+#  SPRQ benchmarks
 
 The provenance of benchmark datasets and the resulting statistics are tracked in this readme. This readme provides the information required to reproduce the results. If questions/concerns arise, please contact support@pacb.com. 
 
