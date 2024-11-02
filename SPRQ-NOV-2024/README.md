@@ -43,9 +43,9 @@ HG002 structural variants were benchmarked against [GIAB T2TQ100 V1.0 HG002 GRCh
 
 ## Illumina
 
-- HG002 DRAGEN variant call sets were obtained from [10.5281/zenodo.8350255](https://doi.org/10.5281/zenodo.8350256) (DRAGEN 4.2.4) and the [Illumina Genomics Research Hub](https://www.illumina.com/science/genomics-research/articles/CMRG_hg38.html) (DRAGEN 3.7.5)
+- HG002 DRAGEN variant call sets were obtained from [10.5281/zenodo.8350255](https://doi.org/10.5281/zenodo.8350256) (DRAGEN 4.2.1) and the [Illumina Genomics Research Hub](https://www.illumina.com/science/genomics-research/articles/CMRG_hg38.html) (DRAGEN 3.7.5)
 - Small variant calls:
-  - DRAGEN 4.2.4, 35-fold depth: [HG002_35x.hard-filtered.vcf.gz](https://zenodo.org/records/8350256/files/HG002_35x.hard-filtered.vcf.gz?download=1) (md5sum `388f58faa52a8811fe19b06533d2c3d5`)
+  - DRAGEN 4.2.1, 35-fold depth: [HG002_35x.hard-filtered.vcf.gz](https://zenodo.org/records/8350256/files/HG002_35x.hard-filtered.vcf.gz?download=1) (md5sum `388f58faa52a8811fe19b06533d2c3d5`)
   - DRAGEN 3.7.5, 30-fold depth: [HG002.30x_novaseq_pcrfree.dragen.vcf.gz](TKTKTK) (md5sum `cf2c302a99b96e1e4806cb644524357c`)
 - Structural variant calls:
   - DRAGEN 4.2.4: [HG002_35x.sv.vcf.gz](https://zenodo.org/records/8350256/files/HG002_35x.sv.vcf.gz?download=1) (md5sum `760b9c5c295fc82b045f83ed15e524a9`)
