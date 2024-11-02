@@ -26,7 +26,7 @@ HG002 structural variants were benchmarked against [GIAB T2TQ100 V1.0 HG002 GRCh
 | 20-fold | INDEL |      525469 |   513484 |    11985 |      956105 |     9346 |    414296 |  5286 |      0.977192 |          0.98275 |       0.433316 |        0.979963 |
 | 30-fold | INDEL |      525469 |   520114 |     5355 |      971125 |     4625 |    426619 |  2506 |      0.989809 |         0.991506 |       0.439304 |        0.990657 |
 
-### PacBio HiFi structural variant benchmarking results (Sawfish vTKTKTK)
+### PacBio HiFi structural variant benchmarking results (Sawfish 0.12.4)
 
 | Depth | Recall | Precision | F1-score |
 | ----: | ------ | --------- | -------- |
