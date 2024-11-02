@@ -13,7 +13,7 @@ HG002 structural variants were benchmarked against [GIAB T2TQ100 V1.0 HG002 GRCh
 - Small variants were called with DeepVariant 1.6.1.
   - [20-fold](https://downloads.pacbcloud.com/public/revio/2024Q4/WGS/benchmark/HG002-20fold.GRCh38.small_variants.phased.vcf.gz)
   - [30-fold](https://downloads.pacbcloud.com/public/revio/2024Q4/WGS/benchmark/HG002-30fold.GRCh38.small_variants.phased.vcf.gz)
-- Structural variants were called with Sawfish vTKTKTK.
+- Structural variants were called with Sawfish 0.12.4.
   - [20-fold](https://downloads.pacbcloud.com/public/revio/2024Q4/WGS/benchmark/HG002-20fold.genotyped.sawfish.sv.vcf.gz)
   - [30-fold](https://downloads.pacbcloud.com/public/revio/2024Q4/WGS/benchmark/HG002-30fold.genotyped.sawfish.sv.vcf.gz)
 
