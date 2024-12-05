@@ -91,4 +91,4 @@ HG002 structural variants were benchmarked against [GIAB T2TQ100 V1.0 HG002 GRCh
 ## GIAB T2TQ100 V1.0 structural variant truthset (T2T_V0.015-20240215_T2T-HG002-Q100v1.0)
 
 - see [SV readme](./SV.md)
-- for benchmarking steps using truevari please see: [Saunders, et al. bioRxiv, 2024](https://www.biorxiv.org/content/10.1101/2024.08.19.608674v1)
+- for benchmarking steps using truevari please also see: [Saunders, et al. bioRxiv, 2024](https://www.biorxiv.org/content/10.1101/2024.08.19.608674v1)
