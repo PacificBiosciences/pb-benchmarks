@@ -4,8 +4,7 @@
 
 This readme provides the information required to reproduce the results. Please contact [support@pacb.com](mailto:support@pacb.com) with any questions.
 
-## [PacBio HiFi](https://downloads.pacbcloud.com/public/revio/2024Q4/WGS/benchmark)
-
+## PacBio HiFi
 - HG002 was sequenced on the Revio system with SPRQ chemistry, yielding 146 Gbp.  The reads were aligned with pbmm2 v1.13.1 and downsampled to [20-fold](https://downloads.pacbcloud.com/public/revio/2024Q4/WGS/benchmark/aligned_bam/HG002-20fold.GRCh38.haplotagged.bam) and [30-fold](https://downloads.pacbcloud.com/public/revio/2024Q4/WGS/benchmark/aligned_bam/HG002-30fold.GRCh38.haplotagged.bam) aligned depth for variant calling and benchmarking.
 - Small variants were called with DeepVariant 1.6.1.
   - [20-fold](https://downloads.pacbcloud.com/public/revio/2024Q4/WGS/benchmark/HG002-20fold.GRCh38.small_variants.phased.vcf.gz)
@@ -13,6 +12,8 @@ This readme provides the information required to reproduce the results. Please c
 - Structural variants were called with Sawfish 0.12.4.
   - [20-fold](https://downloads.pacbcloud.com/public/revio/2024Q4/WGS/benchmark/HG002-20fold.genotyped.sawfish.sv.vcf.gz)
   - [30-fold](https://downloads.pacbcloud.com/public/revio/2024Q4/WGS/benchmark/HG002-30fold.genotyped.sawfish.sv.vcf.gz)
+- [Link to root directory](https://downloads.pacbcloud.com/public/revio/2024Q4/WGS/benchmark)
+
 
 ### PacBio HiFi small variant benchmarking results (DeepVariant 1.6.1)
 
