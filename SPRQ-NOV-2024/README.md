@@ -4,9 +4,6 @@
 
 This readme provides the information required to reproduce the results. Please contact [support@pacb.com](mailto:support@pacb.com) with any questions.
 
-HG002 small variants were benchmarked against [GIAB v4.2.1 HG002 GRCh38 truth set](https://ftp.ncbi.nlm.nih.gov/giab/ftp/release/AshkenazimTrio/HG002_NA24385_son/NISTv4.2.1/GRCh38/) with hap.py v0.3.8-17-gf15de4a ([docker://pkrusche/hap.py:latest](https://hub.docker.com/r/pkrusche/hap.py/tags)).
-HG002 structural variants were benchmarked against [GIAB T2TQ100 V1.0 HG002 GRCh38 truth set](ftp://ftp.ncbi.nlm.nih.gov//giab/ftp/data/AshkenazimTrio/analysis/NIST_HG002_DraftBenchmark_defrabbV0.015-20240215) with [truvari v4.2.2](https://pypi.org/project/truvari/4.2.2/).
-
 ## [PacBio HiFi](https://downloads.pacbcloud.com/public/revio/2024Q4/WGS/benchmark)
 
 - HG002 was sequenced on the Revio system with SPRQ chemistry, yielding 146 Gbp.  The reads were aligned with pbmm2 v1.13.1 and downsampled to [20-fold](https://downloads.pacbcloud.com/public/revio/2024Q4/WGS/benchmark/aligned_bam/HG002-20fold.GRCh38.haplotagged.bam) and [30-fold](https://downloads.pacbcloud.com/public/revio/2024Q4/WGS/benchmark/aligned_bam/HG002-30fold.GRCh38.haplotagged.bam) aligned depth for variant calling and benchmarking.
