@@ -86,7 +86,6 @@ This readme provides the information required to reproduce the results. Please c
 
 - see [small variants readme](./small_variants.md)
 
-## GIAB T2TQ100 V1.0 structural variant truthset (T2T_V0.015-20240215_T2T-HG002-Q100v1.0)
-
+## GIAB T2TQ100 V1.0 structural variant truthset 
 - see [SV readme](./SV.md)
 - for benchmarking steps using truevari please also see: [Saunders, et al. bioRxiv, 2024](https://www.biorxiv.org/content/10.1101/2024.08.19.608674v1)
