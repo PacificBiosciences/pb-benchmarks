@@ -39,6 +39,14 @@ This readme provides the information required to reproduce the results. Please c
 | 34.04 | 0.9586 | 0.9883    | 0.9733   |
 | 38.90 | 0.9608 | 0.9882    | 0.9743   |
 
+
+### HiFi structural variant benchmarking results (20-fold, DRAGEN 4.2.4)
+
+
+| TP_base | TP_comp | FP  | FN    | Recall | Precision | F1-score |
+|---------|---------|-----|-------|--------|-----------|-------|
+| 22557    | 21062    | 232 | 1281 | 0.9463 |0.9891     | 0.9672 |
+
 ## Illumina
 
 - HG002 DRAGEN variant call sets were obtained from [10.5281/zenodo.8350255](https://doi.org/10.5281/zenodo.8350256) (DRAGEN 4.2.1/4.2.4)  and S3 bucket (`s3://human-pangenomics/publications/PANGENOME_2022/DeepVariant/samples/HG002`) (DRAGEN 3.7.5)
