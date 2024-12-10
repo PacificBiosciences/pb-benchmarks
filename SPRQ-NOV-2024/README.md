@@ -88,7 +88,7 @@ This readme provides the information required to reproduce the results. Please c
 
 | TP_base | TP_comp | FP  | FN   | Recall | Precision | F1-score |
 | ------: | ------: | --- | ---: | -----: | --------: | -----: |
-|   12806 |   10586 | 114 | 1755 | 0.8795 |    0.9893 | 0.9312 |
+|   21087 |   18649 | 243 | 1743 | 0.9237 |    0.9871 | 0.9543 |
 
 ## GIAB 4.2.1 small variant truthset
 
