@@ -69,7 +69,7 @@ This readme provides the information required to reproduce the results. Please c
 
 | TP_base | TP_comp | FP  | FN    | Recall | Precision | F1-score |
 |---------|---------|-----|-------|--------|-----------|-------|
-| 8645    | 7857    | 235 | 13605 | 0.3885 | 0.971     | 0.555 |
+| 9243    | 8454    | 247 | 13549 | 0.4055 | 0.9716     | 0.5722 |
 
 ## ONT
 
