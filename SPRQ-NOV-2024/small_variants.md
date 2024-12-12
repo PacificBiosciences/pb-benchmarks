@@ -27,3 +27,9 @@ singularity exec --bind "$PWD" ${DOCKER_IMAGE} \
   --false-positives ${HC_BED} ${TRUTH_VCF} \
   "${QUERY_VCF}"
 ```
+
+
+## Run final summary script
+```bash
+  python sum_snp_indel_bases.py all.vcf.gz
+```

@@ -66,3 +66,10 @@ truvari ga4gh \
   --output ${output_dir}/combined_result \
   --with-refine
 ```
+
+## Run final summary script
+```bash
+  python process_truvari_ga4gh_vcfs.py  \
+  --truth-vcf  ga4gh_with_refine_truth.vcf.gz \ 
+  --query-vcf ga4gh_with_refine_query.vcf.gz
+```
